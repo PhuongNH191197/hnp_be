@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://viettel.com/xsd">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <xsd:getMSISDN>
+            <xsd:username>USER</xsd:username>
+            <xsd:password>PASS</xsd:password>
+            <xsd:ip>IP</xsd:ip>
+        </xsd:getMSISDN>
+    </soapenv:Body>
+</soapenv:Envelope>
